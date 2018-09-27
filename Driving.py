@@ -7,8 +7,10 @@ if country == 'TW':
         print('You can drive!')
     else:
         print('You can\'t drive!')
-if country == 'US':
+elif country == 'US':
     if age >= 16:
         print('You can drive!')
     else:
         print('You can\'t drive!')
+else country != 'TW' and country != 'US':
+	print('Sorry, this version only accept TW and US')
