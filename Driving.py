@@ -12,5 +12,7 @@ elif country == 'US':
         print('You can drive!')
     else:
         print('You can\'t drive!')
-else country != 'TW' and country != 'US':
-	print('Sorry, this version only accept TW and US')
+# else country != 'TW' and country != 'US':
+#     print('Sorry, this version only accept TW and US')
+else:
+    print('Sorry, this version only accept TW and US')
